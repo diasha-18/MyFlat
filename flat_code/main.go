@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func showflatInfo(flat Flat) {
 	fmt.Println("Адресс квартиры:", flat.Address)
